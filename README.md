@@ -1,5 +1,7 @@
 # Letsencrypt Docker 
 
+Simple tutorial that show how to deploy services in a practical way using `docker`, `nginx` and `letsencrypt`.
+
 ## How to run 
 
 1) Replace example.org with your domain name and the server ip/port

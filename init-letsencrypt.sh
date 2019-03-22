@@ -1,6 +1,6 @@
 #!/bin/bash
 
-domains=(letsencrypt.lappis.site)
+domains=(example.org)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="diniz@lappis.rocks" # Adding a valid address is strongly recommended

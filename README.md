@@ -15,6 +15,12 @@ server_name example.org;
 ssl_certificate /etc/letsencrypt/live/example.org/fullchain.pem;
 ssl_certificate_key /etc/letsencrypt/live/example.org/privkey.pem;
 ```
+
+```sh
+# init-letsencryptinit-letsencrypt
+domains=(example.org)
+```
+
 2) Create a dummy certificate
 
 ```bash
@@ -40,7 +46,7 @@ Certbot service
 ```
 
 
-3) Everything is in place now. The initial certificates have been obtained and our containers are ready to launch. Simply run docker-compose up and enjoy your HTTPS-secured website or app.
+4) Everything is in place now. The initial certificates have been obtained and our containers are ready to launch. Simply run docker-compose up and enjoy your HTTPS-secured website or app.
 ```bash
 docker-compose up
 ```
